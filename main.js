@@ -19,3 +19,14 @@ function calculate() {
         display.value = "I LOVE YOU";
     }
 }
+
+function checkCode() { 
+    var redirectCode = "221122";
+    var targetURL = "https://jay-mov.github.io/22/yeat.html"; 
+
+    if (display.value === redirectCode) { 
+          window.location.href = targetURL; 
+    } else {
+        alert("Invalid");
+    }
+}
