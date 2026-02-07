@@ -22,7 +22,7 @@ function calculate() {
 
 function checkCode() { 
     var redirectCode = "221122";
-    var targetURL = "https://jay-mov.github.io/22/yeat.html"; 
+    var targetURL = "https://jay-mov.github.io/22/love.html"; 
 
     if (display.value === redirectCode) { 
           window.location.href = targetURL; 
@@ -30,3 +30,4 @@ function checkCode() {
         alert("Invalid");
     }
 }
+
